@@ -3,9 +3,33 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>今日头条</title>
+    <title>圆角效果</title>
+    <style>
+        .container
+        {
+            width: 100px;
+            height: 100px;
+            background: pink;
+            /* 圆角 */
+            /* border-radius: 10px; */
+            /* 设置四个角 */
+            /* border-radius: 10px 20px 30px 40px; */
+
+            /* 对角线弧度 */
+            /* border-radius: 10px 50px; */
+            border-radius: 50%;
+            /* 单独角
+            border-top-left-radius: 20px;
+            border-bottom-right-radius: 40px; */
+            /* 超出就隐藏 */
+            overflow: hidden;
+
+        }
+    </style>
 </head>
 <body>
-    
+    <div class="container">
+        <img src="./星空背景 绘画 夜空 4k壁纸_彼岸图网.jpg" alt="">
+    </div>
 </body>
 </html>
